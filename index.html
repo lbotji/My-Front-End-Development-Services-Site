@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <title>My Front-End Site</title>
+</head>
+<body>
+  <div class="toggle-container">
+    <label>
+      <input type="checkbox" id="darkToggle" />
+      Dark Mode
+    </label>
+  </div>
+  <header>
+    <h2>My Front-End Services</h2>
+  </header>
+  <section class="hero">
+    <h1>Mobile-Friendly Websites</h1>
+    <p>Clean, responsive sites for small businesses in South Africa</p>
+  </section>
+  <section class="services">
+    <div class="service">
+      <h3>Website Design</h3>
+      <p>1-3 page custom sites. Starting at R350.</p>
+    </div>
+    <div class="service">
+      <h3>Fixes & Updates</h3>
+      <p>Correct Layout issues, improve speed, or update your site.</p>
+    </div>
+    <div class="service">
+      <h3>Maintenance</h3>
+      <p>Monthly support and quick updates available.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="popup" class="popup">
+      <p>Thank you! Your message has been sent.</p>
+    </div>
+  </section>
+
+  <footer>
+    Lehlohonolo Botji | Front-End Developer
+  </footer>
+  <script src="src/index.js"></script>
+</body>
+</html>
