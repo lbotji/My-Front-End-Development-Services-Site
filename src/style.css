@@ -6,6 +6,7 @@
   --footer: #333;
   --hero: #e6f0ff;
   --popup: #4BB543;
+  --a: #333;
 }
 
 body.dark {
@@ -16,6 +17,7 @@ body.dark {
   --footer: #000;
   --hero: #1a1a2e;
   --popup: #0d6efd;
+  --a: #000
 }
 
 body {
@@ -31,6 +33,19 @@ header, footer {
   text-align: center;
   padding: 1rem;
 }
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
 
 .toggle-container {
   position: absolute;
