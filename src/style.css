@@ -54,6 +54,7 @@ footer a:hover {
 
 
 
+
 .toggle-container {
   position: absolute;
   top: 10px;
@@ -132,9 +133,9 @@ button {
   10% {opacity: 1; transform: translateY(0); }
   90% {opacity: 1; }
   100% {opacity: 0; transform: translateY(-10px); }
-
-
 }
+
+
 
 @media (min-width:768px) {
   .services {
