@@ -34,17 +34,24 @@ header, footer {
   padding: 1rem;
 }
 
+footer a i {
+  margin-right: 5px;
+}
+
 footer a {
   color: white;
   text-decoration: none;
   margin: 0 0.5rem;
   font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 footer a:hover {
   text-decoration: underline;
   color: var(--accent);
+  transform: scale(1.05);
 }
+
 
 
 .toggle-container {
