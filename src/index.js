@@ -1,8 +1,17 @@
-const toggle = document.getElementById("darkToggle");
-toggle.addEventListener("change", () => {
-  document.body.classList.toggle("dark", toggle.checked);
+ const backToTopBtn = document.getElementById("backToTop");
+    const toggleBtn = document.getElementById("themeToggle");
 
-});
+    window.onscroll = () => {
+      backToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+    });
 
   const form = document.getElementById('contactForm');
   const popup = document.getElementById('popup');
