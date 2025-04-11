@@ -3,17 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="src/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <title>My Front-End Site</title>
 </head>
 <body>
-  <div class="toggle-container">
-    <label>
-      <input type="checkbox" id="darkToggle" />
-      Dark Mode
-    </label>
-  </div>
   <header>
     <h2>My Front-End Services</h2>
   </header>
@@ -55,15 +49,21 @@
     <i class="fab fa-github"></i> GitHub
   </a> |
   <a href="https://github.com/lbotji/AI-Dessert-Recipe-Generator/blob/main/src/styles.css" target="_blank">
-    <i class="fas fa-code"></i> My Projects |
-  </a>
-  <a href="www.linkedin.com/in/lehlohonolob-code-fight-club" target="_blank">
+    <i class="fas fa-code"></i> My Projects
+  </a> |
+  <a href="https://www.linkedin.com/in/lehlohonolob-code-fight-club" target="_blank">
     <i class="fab fa-linkedin"></i> LinkedIn
   </a> |
   <a href="https://wa.me/27788805534" target="_blank">
     <i class="fab fa-whatsapp"></i> WhatsApp
-   </footer>
-  
-  <script src="src/index.js"></script>
+  </a>
+</footer>
+
+<!-- ✅ These buttons are now outside the <footer> tag -->
+<button id="backToTop" title="Back to top">⬆️</button>
+<button id="themeToggle" title="Toggle Dark Mode">🌓</button>
+
+<!-- ✅ Make sure this is placed after the buttons -->
+<script src="src/index.js"></script>
 </body>
 </html>
